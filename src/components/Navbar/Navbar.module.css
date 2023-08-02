@@ -1,0 +1,44 @@
+.navbar {
+  width: 95%;
+  margin: auto;
+  padding: 1em;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 777px) {
+  .navbar {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  .navbar {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .navbar {
+    width: 50%;
+  }
+}
